@@ -1,0 +1,152 @@
+.card-background
+  filter: blur(7px) brightness(0.6)
+  position: relative
+  width: 100%
+  //width: 200%
+  //left: -50%
+  height:100%
+  object-fit: cover
+
+.project
+    overflow: hidden
+    cursor: pointer
+    height:190px
+    background-color: grey
+
+.project:hover
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+
+@media only screen and (min-width:601px)
+    .project
+        height:180px
+    
+
+@media only screen and (min-width:1000px)
+    .project
+        height:350px
+    
+
+@media only screen and (min-width:1201px)
+    .project
+        height:280px
+    
+
+.card-title
+    position: absolute
+    top: 0
+    left: 0
+    padding: 15px
+
+.project .card-text
+    position: absolute
+    top: 0
+    left: 0
+    padding: 15px
+    margin-top: 60px
+    max-width: 60%
+    font-size: 18px
+    height: auto
+
+.languages
+    position: absolute
+    bottom: 0
+    right: 0
+    padding: 15px
+
+.language
+    filter: invert(1)
+    width: 32px
+
+.slick-slide
+    margin: 10px !important
+
+.slick-slide img
+    display: inline-block
+
+.slick-arrow, .slick-next:before, .slick-prev:before
+    color: black !important
+
+// .content
+//     background-color:#ebebeb
+//     color:#000
+//     transform: scaleY(0)
+//     transform-origin: top
+//     transition: transform 0.5s linear
+//     margin-bottom:0!important
+
+// .content .visible
+//     transform:scaleY(1)
+
+// .content > .container
+//     padding-top:1rem
+
+// .upper-content
+//     width:100%
+//     z-index:10
+
+
+// $n-elem:5
+// $base-width: calc(100vw / $n-elem)
+// $width: calc($base-width + $base-width / 2)
+// $margin-left: calc(($base-width / 2 + $base-width / 4) * -1)
+// $space-left: calc(100vw - $width - (($width + $margin-left)*($n-elem - 1)))
+// $text-indent: 0
+// $height: 15vh
+  
+// .row-el-start
+//     clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%)
+//     width: $width
+//     height: $height
+//     background: url("https://i.imgur.com/f2DJ3nx.png") no-repeat, linear-gradient(to top, rgb(215, 128, 30), rgb(239, 169, 88))
+//     background-size: calc($width / 2 - 1) ($height - 2)
+//     background-position: left top
+
+// .row-el-odd
+//     clip-path: polygon(0 0, 100% 0, 70% 100%, 30% 100%)
+//     background-color: blue
+//     width: $width
+//     margin-left: $margin-left
+//     text-indent: $text-indent
+//     height: $height
+
+// .row-el-even
+//     clip-path: polygon(30% 0, 70% 0, 100% 100%, 0 100%)
+//     background-color: blue
+//     width: $width
+//     margin-left: $margin-left
+//     text-indent: $text-indent
+//     height: $height
+
+// .row-el-end-odd
+//     clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%)
+//     background-color: green
+//     width: $width + $space-left
+//     margin-left: $margin-left
+//     text-indent: $text-indent
+//     height: $height
+
+// .row-el-end-even
+//     clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%)
+//     background-color: green
+//     width: $width + $space-left
+//     margin-left: $margin-left
+//     text-indent: $text-indent
+//     height: $height
+
+// .row
+//     display: block
+//     height: $height
+//     width: auto
+//     overflow-x: auto
+//     overflow-y: hidden
+//     white-space: nowrap
+
+// .row div
+//     display: inline-flex
+//     align-items: center
+//     margin-bottom: 50px
+
+// html, body
+//     width: 100vw
+//     height: 90vh
+//     margin: 0
