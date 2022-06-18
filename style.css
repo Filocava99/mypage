@@ -42,19 +42,49 @@ html {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+@media only screen and (min-width: 0px) {
+  .project {
+    height: 400px;
+  }
+
+  .language {
+    width: 25px;
+  }
+}
 @media only screen and (min-width: 601px) {
   .project {
-    height: 180px;
+    height: 400px;
+  }
+
+  .language {
+    width: 20px;
   }
 }
 @media only screen and (min-width: 1000px) {
   .project {
-    height: 350px;
+    height: 400px;
+  }
+
+  .language {
+    width: 25px;
   }
 }
 @media only screen and (min-width: 1201px) {
   .project {
+    height: 350px;
+  }
+
+  .language {
+    width: 25px;
+  }
+}
+@media only screen and (min-width: 1530px) {
+  .project {
     height: 280px;
+  }
+
+  .language {
+    width: 32px;
   }
 }
 .card-title {
@@ -84,7 +114,6 @@ html {
 
 .language {
   filter: invert(1);
-  width: 32px;
 }
 
 .slick-slide {
