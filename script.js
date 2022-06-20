@@ -53,12 +53,12 @@ $(document).ready(function(){
         slidesToShow: 3,
         responsive: [
           {
-            breakpoint: 768,
+            breakpoint: 850,
             settings: {
               arrows: true,
               centerMode: true,
               centerPadding: '40px',
-              slidesToShow: 3
+              slidesToShow: 2
             }
           },
           {
