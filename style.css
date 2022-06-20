@@ -36,6 +36,7 @@ html {
   cursor: pointer;
   height: 190px;
   background-color: grey;
+  display: block;
 }
 
 .project:hover {
