@@ -9,6 +9,7 @@
         <link rel="preload" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" as="style" onload="this.rel='stylesheet'">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="termynal.css" type="text/css">
         <link rel="stylesheet" href="style.css" type="text/css">
         <!-- Scripts -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -22,7 +23,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--  Essential META Tags -->
-        <meta property="og:title" content="European Travel Destinations">
+        <meta property="og:title" content="Filippo Cavallari Software Engineer">
         <meta property="og:type" content="article" />
         <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
         <meta property="og:url" content="http://euro-travel-example.com/index.htm">
@@ -39,6 +40,22 @@
     </header>
     <body>
         <main>
+            <div class="section">
+                <div class="row upper-content">
+                    <div class="col s12">
+                        <div id="termynal" data-termynal>
+                            <span data-ty="input">Loading welcome script...</span>
+                            <span data-ty="progress"></span>
+                            <span data-ty>Successfully loaded script</span>
+                            <span data-ty></span>
+                            <span data-ty="input">Hi there! I'm Filippo</span>
+                            <span data-ty="input">I'm a MDs student of Computer Science and Engineering at the University of Bologna</span>
+                            <span data-ty="input">In my freetime I work on different open-source projects, like</span>
+                            <span data-ty="input">APIs, mods, websites, apps and tools</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="row content visible">
                 <div class="col s12 m6 l4">
                     <div class="card project flow-text">
@@ -277,5 +294,6 @@
             </div>
         </main>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script src="termynal.js" data-termynal-container="#termynal"></script>
     </body>
 </html>
