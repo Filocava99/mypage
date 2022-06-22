@@ -155,4 +155,22 @@ html {
 
 .slick-arrow, .slick-next:before, .slick-prev:before {
   color: black !important;
+}
+
+.github-row {
+  background-color: #252A33;
+  padding: 10px;
+}
+
+.github-row img {
+  height: 200px;
+}
+
+.github-row button {
+  background-color: #e0e0e0 !important;
+  color: #252A33;
+}
+
+.inverted-img {
+  filter: invert(1);
 }/*# sourceMappingURL=style.css.map */
