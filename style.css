@@ -173,4 +173,8 @@ html {
 
 .inverted-img {
   filter: invert(1);
+}
+
+.footer-languages span {
+  margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
